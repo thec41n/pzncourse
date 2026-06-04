@@ -7,8 +7,16 @@ import "fmt"
 // - Jumlah karakter di dalam String bisa nol sampai tidak terhingga.
 // - Di Go-Lang, tipe data String direpresentasikan dengan kata kunci string.
 // - Nilai data String di Go-Lang selalu diawali dengan karakter " (petik dua) dan diakhiri dengan karakter " (petik dua).
+
+// Function untuk String
+// Function            Keterangan
+// -------------------------------------------------------------
+// len("string")       Menghitung jumlah karakter di String
+// "string"[number]    Mengambil karakter pada posisi yang ditentukan
 func main() {
 	fmt.Println("Devi")
 	fmt.Println("Devi Mikhael")
 	fmt.Println("Devi Mikhael Empi")
+	fmt.Println("Jumlah huruf:", len("awok"))
+	fmt.Println("awikwok"[1])
 }
